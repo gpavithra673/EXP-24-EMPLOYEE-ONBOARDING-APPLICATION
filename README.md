@@ -1,26 +1,27 @@
 # EXP 24: EMPLOYEE ONBOARDING APPLICATION
 
 ## AIM:
- To create an empolyee onboarding application using React,SpringBoot and SQL.
+ ###  To create an empolyee onboarding application using React,SpringBoot and SQL.
 
  ## ALGORITHM:
 
- 1. Create a SpringBoot project with the required specifications.
+ ###  1. Create a SpringBoot project with the required specifications.
  
- 2. Set up the JDK environment and add the necessary java files.
+ ###  2. Set up the JDK environment and add the necessary java files.
  
- 3. Create a suitable database in PostgresSQL and connect it to your SpringBoot File
+  ### 3. Create a suitable database in PostgresSQL and connect it to your SpringBoot File
  
- 4. Create the User Interface using React and define the specific components.
+  ### 4. Create the User Interface using React and define the specific components.
  
- 5. Connect the front end to the back end.
+ ###  5. Connect the front end to the back end.
  
- 6. Run the project and make necessary changes as required.
+ ###  6. Run the project and make necessary changes as required.
 
  ## PROGRAM:
 
  ### SPRING BOOT:
  ### Employee.java:
+ ```
  java
 package com.saveetha.employee.emp;
 import jakarta.persistence.*;
@@ -78,8 +79,9 @@ public class Employee {
 }
 
 
-
+```
 ### EmployeeController.java:
+```
 java
 package com.saveetha.employee.emp;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -108,11 +110,12 @@ public class EmployeeController {
     }
 }
 
-
+```
 
 ### REACT CODES:
 
 ### App.js:
+```
 js
 import React from 'react';
 import './App.css';
@@ -147,8 +150,9 @@ function App() {
 
 export default App;
 
-
+```
 ### EmployeeDirectoryComponent.js:
+```
 js
 import React, { useEffect, useState } from 'react';
 import './EmployeeDirectoryComponent.css'; 
@@ -187,8 +191,9 @@ function EmployeeDirectoryComponent() {
 
 export default EmployeeDirectoryComponent;
 
-
+```
 ### EmployeeRegistrationComponent.js:
+```
 js
 import React, { useState } from "react";
 import './EmployeeRegistrationComponent.css'
@@ -248,9 +253,10 @@ function EmployeeRegistrationComponent() {
 }
 
 export default EmployeeRegistrationComponent;
-
+```
 
 ### EmployeeDeletionComponent.js:
+```
 js
 import React, { useState } from 'react';
 import './EmployeeDeletionComponent.css'
@@ -298,7 +304,7 @@ function EmployeeDeletionComponent() {
 export default EmployeeDeletionComponent;
 
 
-
+```
  ## OUTPUT:
 
  ### Home Page (Get Employee Details):
@@ -315,5 +321,4 @@ export default EmployeeDeletionComponent;
 ![image](https://github.com/Aashima02/Employee-Onboarding-Application/assets/93427086/8865a005-68ca-4e50-a5ea-f74425e3ac59)
 
  ## RESULT:
-
- Thus, an employee onboarding app is created using React, springboot and SQL.
+  ### Thus, an employee onboarding app is created using React, springboot and SQL.
